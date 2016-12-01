@@ -10,7 +10,7 @@ public class Owner {
 	/**
 	 * @description 擁有者編號
 	 */
-	private String ownerId;
+	private String ownId;
 
 	/**
 	 * @description 擁有者姓名
@@ -23,24 +23,18 @@ public class Owner {
 	/**
 	 * @description 擁有者地址
 	 */
-	
-	private String ownerAddress;
-	/**
-	 * 性别
-	 */
-	private  String ownerSex;
+	private String ownerAdress;
 	/**
 	 * @description 備用
 	 */
 	private String ownerBak;
 
-
-	public String getOwnerId() {
-		return ownerId;
+	public String getOwnId() {
+		return ownId;
 	}
 
-	public void setOwnerId(String ownerId) {
-		this.ownerId = ownerId;
+	public void setOwnId(String ownId) {
+		this.ownId = ownId;
 	}
 
 	public String getOwnerName() {
@@ -59,14 +53,12 @@ public class Owner {
 		this.ownerTelephone = ownerTelephone;
 	}
 
-
-
-	public String getOwnerAddress() {
-		return ownerAddress;
+	public String getOwnerAdress() {
+		return ownerAdress;
 	}
 
-	public void setOwnerAddress(String ownerAddress) {
-		this.ownerAddress = ownerAddress;
+	public void setOwnerAdress(String ownerAdress) {
+		this.ownerAdress = ownerAdress;
 	}
 
 	public String getOwnerBak() {
@@ -76,15 +68,5 @@ public class Owner {
 	public void setOwnerBak(String ownerBak) {
 		this.ownerBak = ownerBak;
 	}
-
-	public String getOwnerSex() {
-		return ownerSex;
-	}
-
-	public void setOwnerSex(String ownerSex) {
-		this.ownerSex = ownerSex;
-	}
-	
-	
 
 }
